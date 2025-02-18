@@ -1,0 +1,20 @@
+/* Style for the paragraph */
+p {
+    background-color: #f0f8ff; /* Light blue background */
+    border: 1px solid #ccc; /* Light gray border */
+    padding: 15px; /* Padding around the text */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    font-family: Arial, sans-serif; /* Font style */
+    font-size: 16px; /* Font size */
+    color: #333; /* Text color */
+    line-height: 1.6; /* Line height for better readability */
+}
+
+/* Highlighting specific text within the paragraph */
+p span.highlight {
+    background-color: #ffeb3b; /* Yellow highlight */
+    font-weight: bold; /* Bold text */
+    padding: 2px 4px; /* Padding around the highlighted text */
+    border-radius: 3px; /* Slightly rounded corners */
+}
